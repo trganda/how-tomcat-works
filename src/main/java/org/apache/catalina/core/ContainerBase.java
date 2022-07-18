@@ -534,7 +534,7 @@ public abstract class ContainerBase
     /**
      * Set the Cluster with which this Container is associated.
      *
-     * @param manager The newly associated Cluster
+     * @param cluster The newly associated Cluster
      */
     public synchronized void setCluster(Cluster cluster) {
         // Change components if necessary
